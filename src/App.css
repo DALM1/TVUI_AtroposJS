@@ -44,3 +44,11 @@ h2 {
     padding: 20px 20px 20px 0;
   }
 }
+
+/* Pour toute largeur d'écran inférieur à 876px */
+@media (max-width: 876px) {
+  .row {
+    width: 100%;
+    padding: 20px 20px 20px 0;
+  }
+}
