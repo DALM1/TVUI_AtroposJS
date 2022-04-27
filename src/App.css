@@ -1,0 +1,39 @@
+#app {
+  padding: 20px;
+  background-color: black;
+}
+
+h1 {
+  font-weight: 300;
+  color: white;
+}
+
+h2 {
+  margin-bottom: 10px;
+  font-weight: 300;
+  color: white;
+}
+
+.row {
+  width: 100%;
+  padding: 20px 20px 20px 0;
+}
+
+.movie-list {
+  display: flex;
+}
+
+.atropos,
+.poster-image {
+  width: 150px;
+  height: 225px;
+  border-radius: 3px;
+}
+
+.atropos {
+  margin-right: 30px;
+}
+
+.atropos-shadow {
+  background-color: #6b19b3 !important;
+}
