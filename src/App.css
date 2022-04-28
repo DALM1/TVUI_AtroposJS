@@ -1,6 +1,17 @@
 #app {
   padding: 20px;
   background-color: black;
+  background: cover;
+}
+
+html {
+  background-color: black;
+  background-size: cover;
+}
+
+body {
+  background-color: black;
+  background-size: cover;
 }
 
 h1 {
@@ -38,17 +49,22 @@ h2 {
   background-color: #6b19b3 !important;
 }
 
-@media (min-width: 877px) and (max-width: 1124px) {
+/* @media (min-width: 877px) and (max-width: 1124px) {
   .row {
-    width: 100%;
+    width: 50vh;
     padding: 20px 20px 20px 0;
   }
-}
+  .atropos,
+  .poster-image {
+    width: 50vw;
+    height: 50vh;
+    border-radius: 3px;
+  }
+  #app {
+    padding: 20px;
+    background-color: black;
+    background: cover;
+  }
+} */
 
 /* Pour toute largeur d'écran inférieur à 876px */
-@media (max-width: 876px) {
-  .row {
-    width: 100%;
-    padding: 20px 20px 20px 0;
-  }
-}
